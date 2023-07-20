@@ -21,6 +21,8 @@ namespace WpfApp16.ViewModels
         public ObservableCollection<string> markaNames { get; set; }
         public ObservableCollection<string> modelNames { get; set; }
         public ObservableCollection<string> yearNames { get; set; }
+
+
         public MainViewModel()
         {
             markaNames = new ObservableCollection<string>
@@ -40,6 +42,7 @@ namespace WpfApp16.ViewModels
                 "60 kuza",
                 "camry",
                 "transit"
+
             };
 
             yearNames = new ObservableCollection<string>

@@ -26,12 +26,7 @@ namespace WpfApp3.Views
             DataContext = new MainViewModel();
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-          
-
-                
-        }
+     
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -71,6 +66,11 @@ namespace WpfApp3.Views
                 model.Text = "";
                 year.Text = "";
             }
+        }
+
+        private void marka_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
